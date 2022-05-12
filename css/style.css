@@ -24,7 +24,7 @@
 .top-bar{
     background-color: black;
     width: 100vw;
-    height: 80px;
+    height: 70px;
     position: relative;
 }
 
@@ -36,10 +36,47 @@
 }
 
 .btm-couple button{
-    padding: 3px;
+    padding: 4px;
     border: none;
-    border-radius: 2px;
+    border-radius: 3px;
     text-decoration: none;
     color: white;
     background-color: gray;
 }
+
+
+
+/* main  */
+
+main{
+    background-color: red;
+
+}
+
+.container{
+    width: 1650px;
+    margin: auto;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.box-vid{
+    width: 300px;
+    margin: 5px;
+    /* position: relative; */
+}
+
+.box-vid .audio-btm{
+    width: 45%;
+    padding: 5px;
+    font-size: 14px;
+    background-color: rgba(128,128,128,0.4);
+    color: white;
+    /* position: absolute;
+    bottom: 4px;
+
+} */
