@@ -29,14 +29,16 @@
 }
 
 .top-bar .btm-couple{
-    background-color: red;
-    height: 40px;
+    margin: 5px;
     position: absolute;
     top: 0;
     right: 0;
 }
 
 .btm-couple button{
+    padding: 3px;
+    border: none;
+    border-radius: 2px;
     text-decoration: none;
     color: white;
     background-color: gray;
