@@ -94,10 +94,21 @@ main{
 .btm-bar{
     background-color: rgb(54, 50, 50);
     width: 100%;
-    height: 70px;
+    height: 60px;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     z-index: 2;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rght-nav button{
+    line-height: 60px;
+    width: 100px;
+    background-color: gray;
+    color: red;
+    font-weight: 900;
 }
