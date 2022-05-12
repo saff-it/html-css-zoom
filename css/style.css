@@ -5,18 +5,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.clearfix::after{
+/* .clearfix::after{
     content: '';
     display: table;
     clear: both;
 }
 
-.{
+.xxx{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 
 
@@ -26,6 +26,10 @@
     width: 100%;
     height: 70px;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 .top-bar .btm-couple{
@@ -55,9 +59,8 @@ main{
 }
 
 .container{
-    width: 100%;
+    width: 90vw;
     margin: 0 auto;
-    padding: 10px;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
@@ -66,8 +69,8 @@ main{
 }
 
 .box-vid{
-    width: calc(100% / 8 -20%);
-    margin: 5px;
+    width: 300px;
+    margin: 3px;
 
 }
 
@@ -80,4 +83,16 @@ main{
  
 
 
+}
+
+/* footer  */
+.btm-bar{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
 }
