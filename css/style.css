@@ -120,7 +120,7 @@ main{
 
 }
 
-div.microphon{
+div.microphon, div.video{
     text-align: center;
     color: white;
     margin: 5px;
