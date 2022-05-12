@@ -37,7 +37,7 @@
 }
 
 .btm-couple button{
+    text-decoration: none;
     color: white;
     background-color: gray;
-    text-decoration: none;
 }
