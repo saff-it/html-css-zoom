@@ -11,7 +11,7 @@
     clear: both;
 }
 
-.xxx{
+.tag{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,11 +25,11 @@
     background-color: black;
     width: 100%;
     height: 70px;
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 2; */
 }
 
 .top-bar .btm-couple{
@@ -54,12 +54,11 @@
 
 main{
     background-color: black;
-    padding-top: 70px;
+    height: calc(100vh - 70px - 65px);
+
 }
 
 .container{
-    width: 90vw;
-    margin: 0 auto;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
@@ -95,11 +94,10 @@ main{
     background-color: rgb(54, 50, 50);
     width: 100%;
     height: 65px;
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
-    z-index: 2;
+    z-index: 2; */
     display: flex;
     justify-content: space-between;
 
@@ -115,7 +113,7 @@ main{
 
 .lft-nav, .mdl-nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 
 }
