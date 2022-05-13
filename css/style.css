@@ -55,6 +55,7 @@
 main{
     background-color: black;
     height: calc(100vh - 70px - 65px);
+    overflow-y: auto;
 
 }
 
